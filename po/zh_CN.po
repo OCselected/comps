@@ -2482,27 +2482,3 @@ msgstr "终端用户应用程序。"
 #: ../comps-el6.xml.in.h:298
 msgid "Development tools and libraries."
 msgstr "开发工具和程序库。"
-
-#: ../comps-ct1.xml.in.h:60
-msgid "Node"
-msgstr "Hypervisor节点"
-
-#: ../comps-ct1.xml.in.h:61
-msgid "Hypervisor Node Stack"
-msgstr "Hypervisor 节点软件组"
-
-#: ../comps-ct1.xml.in.h:405
-msgid "Management"
-msgstr "管理程序"
-
-#: ../comps-ct1.xml.in.h:406
-msgid "Virtualiztion Centered Management Stack"
-msgstr "虚拟化中心管理软件组"
-
-#: ../comps-ct1.xml.in.h:448
-msgid "All"
-msgstr "全部"
-
-#: ../comps-ct1.xml.in.h:449
-msgid "All in one: include management and node"
-msgstr "全部：包括管理和节点"
