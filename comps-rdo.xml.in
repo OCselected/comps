@@ -141,7 +141,6 @@
       <packagereq type="mandatory">jline</packagereq>
       <packagereq type="mandatory">sinjdoc</packagereq>
       <packagereq type="mandatory">java_cup</packagereq>
-      <packagereq type="mandatory">libart_lgpl</packagereq>
       <packagereq type="mandatory">rhino</packagereq>
       <packagereq type="mandatory">fontconfig</packagereq>
       <packagereq type="mandatory">httpd</packagereq>
