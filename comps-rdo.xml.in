@@ -1167,14 +1167,14 @@
     </packagelist>
   </group>
   <group>
-      <id>core</id>
-      <_name>Core</_name>
-      <_description>Smallest possible installation.</_description>
+      <id>epel</id>
+      <_name>Epel</_name>
+      <_description>what is epel</_description>
       <default>true</default>
       <uservisible>false</uservisible>
       <packagelist>
          <packagereq type="mandatory">epel-release</packagereq>
-      <packagelist>
+      </packagelist>
   </group>
   <category>
     <id>nodecategory</id>
