@@ -1166,12 +1166,23 @@
       <packagereq type="mandatory">zlib</packagereq>
     </packagelist>
   </group>
+  <group>
+      <id>core</id>
+      <_name>Core</_name>
+      <_description>Smallest possible installation.</_description>
+      <default>true</default>
+      <uservisible>false</uservisible>
+      <packagelist>
+         <packagereq type="mandatory">epel-release</packagereq>
+      <packagelist>
+  </group>
   <category>
     <id>nodecategory</id>
     <_name>OpenStack</_name>
     <_description>OpenStack packages</_description>
     <grouplist>
       <groupid>core</groupid>
+      <groupid>epel</groupid>
       <groupid>openstack</groupid>
     </grouplist>
   </category>
@@ -1181,6 +1192,7 @@
     <_description>All in one: include management and node</_description>
     <grouplist>
       <groupid>core</groupid>
+      <groupid>epel</groupid>
       <groupid>openstack</groupid>
     </grouplist>
   </category>
