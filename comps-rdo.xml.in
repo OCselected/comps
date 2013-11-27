@@ -232,6 +232,43 @@
      <packagereq type='mandatory'>libvirt-python</packagereq>
      <packagereq type='mandatory'>busybox</packagereq>
      <packagereq type='mandatory'>kpartx</packagereq>
+     <packagereq type='mandatory'>libsysfs</packagereq>
+     <packagereq type='mandatory'>python-saslwrapper</packagereq>
+     <packagereq type="mandatory">python-ldap</packagereq>
+     <packagereq type='mandatory'>python-paste</packagereq>
+     <packagereq type='mandatory'>libxslt</packagereq>
+     <packagereq type='mandatory'>python-dateutil</packagereq>
+     <packagereq type='mandatory'>python-markdown</packagereq>
+     <packagereq type='mandatory'>python-pygments</packagereq>
+     <packagereq type='mandatory'>ruby</packagereq>
+     <packagereq type='mandatory'>setools-libs-python</packagereq>
+     <packagereq type='mandatory'>libsemanage-python</packagereq>
+     <packagereq type='mandatory'>libselinux-python</packagereq>
+     <packagereq type='mandatory'>libcgroup</packagereq>
+     <packagereq type='mandatory'>audit-libs-python</packagereq>
+     <packagereq type='mandatory'>make</packagereq>
+     <packagereq type='mandatory'>perl</packagereq>
+     <packagereq type='mandatory'>rsync</packagereq>
+     <packagereq type='mandatory'>ebtables</packagereq>
+     <packagereq type='mandatory'>radvd</packagereq>
+     <packagereq type='mandatory'>tunctl</packagereq>
+     <packagereq type='mandatory'>vconfig</packagereq>
+     <packagereq type='mandatory'>genisoimage</packagereq>
+     <packagereq type='mandatory'>libguestfs</packagereq>
+     <packagereq type='mandatory'>libvirt</packagereq>
+     <packagereq type='mandatory'>python-libguestfs</packagereq>
+     <packagereq type='mandatory'>qemu-kvm</packagereq>
+     <packagereq type='mandatory'>m2crypto</packagereq>
+     <packagereq type='mandatory'>mysql-server</packagereq>
+     <packagereq type='mandatory'>httpd</packagereq>
+     <packagereq type='mandatory'>mod_wsgi</packagereq>
+     <packagereq type='mandatory'>scsi-target-utils</packagereq>
+     <packagereq type='mandatory'>libedit</packagereq>
+     <packagereq type='mandatory'>mailx</packagereq>
+     <packagereq type='mandatory'>php</packagereq>
+     <packagereq type='mandatory'>libaio</packagereq>
+     <packagereq type='mandatory'>usbredir</packagereq>
+     <packagereq type='mandatory'>pyOpenSSL</packagereq>
     </packagelist>
   </group>
   <group>
@@ -416,7 +453,6 @@
          <packagereq type="mandatory">python-greenlet</packagereq>
          <packagereq type="mandatory">python-jinja2-26</packagereq>
          <packagereq type="mandatory">python-kombu</packagereq>
-         <packagereq type="mandatory">python-ldap</packagereq>
          <packagereq type="mandatory">python-paste-deploy1.5</packagereq>
          <packagereq type="mandatory">python-routes1.12</packagereq>
          <packagereq type="mandatory">python-sqlalchemy0.7</packagereq>
@@ -429,7 +465,6 @@
          <packagereq type="mandatory">python-argparse</packagereq>
          <packagereq type="mandatory">python-dogpile-core</packagereq>
          <packagereq type='mandatory'>Django14</packagereq>
-         <packagereq type="mandatory">python-dateutil</packagereq>
          <packagereq type="mandatory">python-lockfile</packagereq>
          <packagereq type="mandatory">python-versiontools</packagereq>
          <packagereq type="mandatory">pyparsing</packagereq>
@@ -440,6 +475,18 @@
          <packagereq type="mandatory">puppet</packagereq>
          <packagereq type="mandatory">nagios-common</packagereq>
          <packagereq type="mandatory">nagios</packagereq>
+         <packagereq type="mandatory">python-chardet</packagereq>
+         <packagereq type="mandatory">python-ordereddict</packagereq>
+         <packagereq type="mandatory">python-urllib3</packagereq>
+         <packagereq type="mandatory">python-pip</packagereq>
+         <packagereq type="mandatory">pysendfile</packagereq>
+         <packagereq type="mandatory">facter</packagereq>
+         <packagereq type="mandatory">python-netifaces</packagereq>
+         <packagereq type="mandatory">python-pyudev</packagereq>
+         <packagereq type="mandatory">ruby-augeas</packagereq>
+         <packagereq type="mandatory">python-psutil</packagereq>
+         <packagereq type="mandatory">python-werkzeug</packagereq>
+         <packagereq type="mandatory">python-sphinx10</packagereq>
       </packagelist>
   </group>
   <category>
