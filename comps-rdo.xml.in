@@ -112,7 +112,6 @@
      <packagereq type='mandatory'>libss</packagereq>
      <packagereq type='mandatory'>libstdc++</packagereq>
      <packagereq type='mandatory'>libudev</packagereq>
-     <packagereq type='mandatory'>libusb</packagereq>
      <packagereq type='mandatory'>libuser</packagereq>
      <packagereq type='mandatory'>libutempter</packagereq>
      <packagereq type='mandatory'>libuuid</packagereq>
@@ -278,9 +277,9 @@
      <packagereq type='mandatory'>libaio</packagereq>
      <packagereq type='mandatory'>usbredir</packagereq>
      <packagereq type='mandatory'>pyOpenSSL</packagereq>
-     <packagereq type='mandatory'>libusb</packagereq>
      <packagereq type='mandatory'>perl-Config-General</packagereq>
      <packagereq type='mandatory'>sg3_utils</packagereq>
+     <packagereq type='mandatory'>sg3_utils-libs</packagereq>
      <packagereq type='mandatory'>lsof</packagereq>
      <packagereq type='mandatory'>augeas-libs</packagereq>
      <packagereq type='mandatory'>setools-libs</packagereq>
@@ -306,6 +305,32 @@
      <packagereq type='mandatory'>febootstrap-supermin-helper</packagereq>
      <packagereq type='mandatory'>dosfstools</packagereq>
      <packagereq type='mandatory'>btrfs-progs</packagereq>
+     <packagereq type='mandatory'>mailcap</packagereq>
+     <packagereq type='mandatory'>librdmacm</packagereq>
+     <packagereq type='mandatory'>libibverbs</packagereq>
+     <packagereq type='mandatory'>readline</packagereq>
+     <packagereq type='mandatory'>ConsoleKit</packagereq>
+     <packagereq type='mandatory'>eggdbus</packagereq>
+     <packagereq type='mandatory'>mysql</packagereq>
+     <packagereq type='mandatory'>libpng</packagereq>
+     <packagereq type='mandatory'>libjpeg-turbo</packagereq>
+     <packagereq type='mandatory'>lzo</packagereq>
+     <packagereq type='mandatory'>yajl</packagereq>
+     <packagereq type='mandatory'>gnutls</packagereq>
+     <packagereq type='mandatory'>netcf-libs</packagereq>
+     <packagereq type='mandatory'>perl-version</packagereq>
+     <packagereq type='mandatory'>spice-server</packagereq>
+     <packagereq type='mandatory'>pulseaudio-libs</packagereq>
+     <packagereq type='mandatory'>perl-Pod-Escapes</packagereq>
+     <packagereq type='mandatory'>keyutils</packagereq>
+     <packagereq type='mandatory'>libtirpc</packagereq>
+     <packagereq type='mandatory'>rpcbind</packagereq>
+     <packagereq type='mandatory'>nfs-utils-lib</packagereq>
+     <packagereq type='mandatory'>libgssglue</packagereq>
+     <packagereq type='mandatory'>libevent</packagereq>
+     <packagereq type='mandatory'>fuse</packagereq>
+     <packagereq type='mandatory'>fuse-libs</packagereq>
+     <packagereq type='mandatory'>hivex</packagereq>
     </packagelist>
   </group>
   <group>
@@ -488,7 +513,7 @@
          <packagereq type="mandatory">python-boto</packagereq>
          <packagereq type="mandatory">python-eventlet</packagereq>
          <packagereq type="mandatory">python-greenlet</packagereq>
-         <packagereq type="mandatory">python-jinja2-26</packagereq>
+         <packagereq type="mandatory">python-jinja2</packagereq>
          <packagereq type="mandatory">python-kombu</packagereq>
          <packagereq type="mandatory">python-paste-deploy1.5</packagereq>
          <packagereq type="mandatory">python-routes1.12</packagereq>
@@ -525,6 +550,9 @@
          <packagereq type="mandatory">python-werkzeug</packagereq>
          <packagereq type="mandatory">python-sphinx10</packagereq>
          <packagereq type="mandatory">python-jinja2</packagereq>
+         <packagereq type="mandatory">libyaml</packagereq>
+         <packagereq type='mandatory'>libusb</packagereq>
+         <packagereq type="mandatory">ruby-shadow</packagereq>
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
       </packagelist>
   </group>
