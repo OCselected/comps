@@ -207,7 +207,31 @@
      <packagereq type='mandatory'>policycoreutils-python</packagereq>
      <packagereq type='mandatory'>policycoreutils-newrole</packagereq>
      <packagereq type='mandatory'>xdg-utils</packagereq>
+     <packagereq type='mandatory'>desktop-file-utils</packagereq>
      <packagereq type='mandatory'>MySQL-python</packagereq>
+     <packagereq type='mandatory'>python-setuptools</packagereq>
+     <packagereq type='mandatory'>python-simplejson</packagereq>
+     <packagereq type='mandatory'>python-babel</packagereq>
+     <packagereq type='mandatory'>python-netaddr</packagereq>
+     <packagereq type='mandatory'>python-crypto</packagereq>
+     <packagereq type='mandatory'>python-cheetah</packagereq>
+     <packagereq type='mandatory'>python-lxml</packagereq>
+     <packagereq type='mandatory'>python-paramiko</packagereq>
+     <packagereq type='mandatory'>python-pyasn1</packagereq>
+     <packagereq type='mandatory'>python-qpid</packagereq>
+     <packagereq type='mandatory'>python-decorator</packagereq>
+     <packagereq type='mandatory'>python-tempita</packagereq>
+     <packagereq type='mandatory'>python-beaker</packagereq>
+     <packagereq type='mandatory'>python-markupsafe</packagereq>
+     <packagereq type='mandatory'>PyPAM</packagereq>
+     <packagereq type='mandatory'>pytz</packagereq>
+     <packagereq type='mandatory'>qemu-img</packagereq>
+     <packagereq type='mandatory'>sysfsutils</packagereq>
+     <packagereq type='mandatory'>python-configobj</packagereq>
+     <packagereq type='mandatory'>dnsmasq</packagereq>
+     <packagereq type='mandatory'>libvirt-python</packagereq>
+     <packagereq type='mandatory'>busybox</packagereq>
+     <packagereq type='mandatory'>kpartx</packagereq>
     </packagelist>
   </group>
   <group>
@@ -307,6 +331,7 @@
       <packagereq type="mandatory">python-backports</packagereq>
       <packagereq type="mandatory">python-bson</packagereq>
       <packagereq type="mandatory">python-ceilometer</packagereq>
+      <packagereq type="mandatory">python-ceilometerclient</packagereq>
       <packagereq type="mandatory">python-ceilometerclient-doc</packagereq>
       <packagereq type="mandatory">python-cinder</packagereq>
       <packagereq type="mandatory">python-cinderclient</packagereq>
@@ -320,6 +345,8 @@
       <packagereq type="mandatory">python-django-openstack-auth</packagereq>
       <packagereq type="mandatory">python-django-savanna</packagereq>
       <packagereq type="mandatory">python-dogpile-cache</packagereq>
+      <packagereq type="mandatory">python-glanceclient</packagereq>
+      <packagereq type="mandatory">python-glance</packagereq>
       <packagereq type="mandatory">python-heatclient</packagereq>
       <packagereq type="mandatory">python-heatclient-doc</packagereq>
       <packagereq type="mandatory">python-iso8601</packagereq>
@@ -374,6 +401,44 @@
       <uservisible>false</uservisible>
       <packagelist>
          <packagereq type="mandatory">epel-release</packagereq>
+         <packagereq type="mandatory">python-six</packagereq>
+         <packagereq type="mandatory">python-simplegeneric</packagereq>
+         <packagereq type="mandatory">python-jsonschema</packagereq>
+         <packagereq type="mandatory">python-requests</packagereq>
+         <packagereq type="mandatory">python-argparse</packagereq>
+         <packagereq type="mandatory">python-keyring</packagereq>
+         <packagereq type="mandatory">python-pbr</packagereq>
+         <packagereq type="mandatory">python-httplib2</packagereq>
+         <packagereq type="mandatory">python-amqplib</packagereq>
+         <packagereq type="mandatory">python-anyjson</packagereq>
+         <packagereq type="mandatory">python-boto</packagereq>
+         <packagereq type="mandatory">python-eventlet</packagereq>
+         <packagereq type="mandatory">python-greenlet</packagereq>
+         <packagereq type="mandatory">python-jinja2-26</packagereq>
+         <packagereq type="mandatory">python-kombu</packagereq>
+         <packagereq type="mandatory">python-ldap</packagereq>
+         <packagereq type="mandatory">python-paste-deploy1.5</packagereq>
+         <packagereq type="mandatory">python-routes1.12</packagereq>
+         <packagereq type="mandatory">python-sqlalchemy0.7</packagereq>
+         <packagereq type="mandatory">pyparsing</packagereq>
+         <packagereq type="mandatory">python-prettytable</packagereq>
+         <packagereq type="mandatory">python-alembic</packagereq>
+         <packagereq type="mandatory">python-ply</packagereq>
+         <packagereq type="mandatory">python-passlib</packagereq>
+         <packagereq type="mandatory">PyYAML</packagereq>
+         <packagereq type="mandatory">python-argparse</packagereq>
+         <packagereq type="mandatory">python-dogpile-core</packagereq>
+         <packagereq type='mandatory'>Django14</packagereq>
+         <packagereq type="mandatory">python-dateutil</packagereq>
+         <packagereq type="mandatory">python-lockfile</packagereq>
+         <packagereq type="mandatory">python-versiontools</packagereq>
+         <packagereq type="mandatory">pyparsing</packagereq>
+         <packagereq type="mandatory">python-suds</packagereq>
+         <packagereq type="mandatory">crudini</packagereq>
+         <packagereq type="mandatory">pyxattr</packagereq>
+         <packagereq type="mandatory">python-flask</packagereq>
+         <packagereq type="mandatory">puppet</packagereq>
+         <packagereq type="mandatory">nagios-common</packagereq>
          <packagereq type="mandatory">nagios</packagereq>
       </packagelist>
   </group>
