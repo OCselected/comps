@@ -241,6 +241,7 @@
      <packagereq type='mandatory'>python-markdown</packagereq>
      <packagereq type='mandatory'>python-pygments</packagereq>
      <packagereq type='mandatory'>ruby</packagereq>
+     <packagereq type='mandatory'>ruby-libs</packagereq>
      <packagereq type='mandatory'>setools-libs-python</packagereq>
      <packagereq type='mandatory'>libsemanage-python</packagereq>
      <packagereq type='mandatory'>libselinux-python</packagereq>
@@ -248,6 +249,11 @@
      <packagereq type='mandatory'>audit-libs-python</packagereq>
      <packagereq type='mandatory'>make</packagereq>
      <packagereq type='mandatory'>perl</packagereq>
+     <packagereq type='mandatory'>perl-libs</packagereq>
+     <packagereq type='mandatory'>perl-Pod-Simple</packagereq>
+     <packagereq type='mandatory'>perl-Module-Pluggable</packagereq>
+     <packagereq type='mandatory'>perl-DBD-MySQL</packagereq>
+     <packagereq type='mandatory'>perl-DBI</packagereq>
      <packagereq type='mandatory'>rsync</packagereq>
      <packagereq type='mandatory'>ebtables</packagereq>
      <packagereq type='mandatory'>radvd</packagereq>
@@ -261,14 +267,45 @@
      <packagereq type='mandatory'>m2crypto</packagereq>
      <packagereq type='mandatory'>mysql-server</packagereq>
      <packagereq type='mandatory'>httpd</packagereq>
+     <packagereq type='mandatory'>httpd-tools</packagereq>
      <packagereq type='mandatory'>mod_wsgi</packagereq>
      <packagereq type='mandatory'>scsi-target-utils</packagereq>
      <packagereq type='mandatory'>libedit</packagereq>
      <packagereq type='mandatory'>mailx</packagereq>
      <packagereq type='mandatory'>php</packagereq>
+     <packagereq type='mandatory'>php-cli</packagereq>
+     <packagereq type='mandatory'>php-common</packagereq>
      <packagereq type='mandatory'>libaio</packagereq>
      <packagereq type='mandatory'>usbredir</packagereq>
      <packagereq type='mandatory'>pyOpenSSL</packagereq>
+     <packagereq type='mandatory'>libusb</packagereq>
+     <packagereq type='mandatory'>perl-Config-General</packagereq>
+     <packagereq type='mandatory'>sg3_utils</packagereq>
+     <packagereq type='mandatory'>lsof</packagereq>
+     <packagereq type='mandatory'>augeas-libs</packagereq>
+     <packagereq type='mandatory'>setools-libs</packagereq>
+     <packagereq type='mandatory'>saslwrapper</packagereq>
+     <packagereq type='mandatory'>avahi-libs</packagereq>
+     <packagereq type='mandatory'>dbus</packagereq>
+     <packagereq type='mandatory'>dmidecode</packagereq>
+     <packagereq type='mandatory'>lzop</packagereq>
+     <packagereq type='mandatory'>nfs-utils</packagereq>
+     <packagereq type='mandatory'>numad</packagereq>
+     <packagereq type='mandatory'>parted</packagereq>
+     <packagereq type='mandatory'>polkit</packagereq>
+     <packagereq type='mandatory'>xz</packagereq>
+     <packagereq type='mandatory'>apr-util-ldap</packagereq>
+     <packagereq type='mandatory'>apr</packagereq>
+     <packagereq type='mandatory'>apr-util</packagereq>
+     <packagereq type='mandatory'>pciutils</packagereq>
+     <packagereq type='mandatory'>virt-what</packagereq>
+     <packagereq type='mandatory'>seabios</packagereq>
+     <packagereq type='mandatory'>vgabios</packagereq>
+     <packagereq type='mandatory'>strace</packagereq>
+     <packagereq type='mandatory'>scrub</packagereq>
+     <packagereq type='mandatory'>febootstrap-supermin-helper</packagereq>
+     <packagereq type='mandatory'>dosfstools</packagereq>
+     <packagereq type='mandatory'>btrfs-progs</packagereq>
     </packagelist>
   </group>
   <group>
@@ -487,6 +524,8 @@
          <packagereq type="mandatory">python-psutil</packagereq>
          <packagereq type="mandatory">python-werkzeug</packagereq>
          <packagereq type="mandatory">python-sphinx10</packagereq>
+         <packagereq type="mandatory">python-jinja2</packagereq>
+         <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
       </packagelist>
   </group>
   <category>
