@@ -329,7 +329,6 @@
      <packagereq type='mandatory'>libevent</packagereq>
      <packagereq type='mandatory'>fuse</packagereq>
      <packagereq type='mandatory'>fuse-libs</packagereq>
-     <packagereq type='mandatory'>hivex</packagereq>
      <packagereq type='mandatory'>celt051</packagereq>
      <packagereq type='mandatory'>pixman</packagereq>
      <packagereq type='mandatory'>pkgconfig</packagereq>
@@ -346,6 +345,16 @@
      <packagereq type='mandatory'>libtasn1</packagereq>
      <packagereq type='mandatory'>ConsoleKit-libs</packagereq>
      <packagereq type='mandatory'>alsa-lib</packagereq>
+     <packagereq type='mandatory'>libusb1</packagereq>
+     <packagereq type='mandatory'>cyrus-sasl-md5</packagereq>
+     <packagereq type='mandatory'>gettext</packagereq>
+     <packagereq type='mandatory'>gnutls-utils</packagereq>
+     <packagereq type='mandatory'>nc</packagereq>
+     <packagereq type='mandatory'>pm-utils</packagereq>
+     <packagereq type='mandatory'>libogg</packagereq>
+     <packagereq type='mandatory'>gpxe-roms-qemu</packagereq>
+     <packagereq type='mandatory'>sgabios-bin</packagereq>
+     <packagereq type='mandatory'>man</packagereq>
     </packagelist>
   </group>
   <group>
@@ -566,7 +575,6 @@
          <packagereq type="mandatory">python-sphinx10</packagereq>
          <packagereq type="mandatory">python-jinja2</packagereq>
          <packagereq type="mandatory">libyaml</packagereq>
-         <packagereq type='mandatory'>libusb</packagereq>
          <packagereq type="mandatory">ruby-shadow</packagereq>
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
       </packagelist>
