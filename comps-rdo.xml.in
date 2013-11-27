@@ -171,8 +171,6 @@
      <packagereq type='mandatory'>rpm</packagereq>
      <packagereq type='mandatory'>rsyslog</packagereq>
      <packagereq type='mandatory'>sed</packagereq>
-     <packagereq type='mandatory'>selinux-policy</packagereq>
-     <packagereq type='mandatory'>selinux-policy-targeted</packagereq>
      <packagereq type='mandatory'>setup</packagereq>
      <packagereq type='mandatory'>shadow-utils</packagereq>
      <packagereq type='mandatory'>slang</packagereq>
@@ -206,6 +204,10 @@
      <packagereq type='mandatory'>openssh-clients</packagereq>
      <packagereq type='mandatory'>xfsprogs</packagereq>
      <packagereq type='mandatory'>mdadm</packagereq>
+     <packagereq type='mandatory'>policycoreutils-python</packagereq>
+     <packagereq type='mandatory'>policycoreutils-newrole</packagereq>
+     <packagereq type='mandatory'>xdg-utils</packagereq>
+     <packagereq type='mandatory'>MySQL-python</packagereq>
     </packagelist>
   </group>
   <group>
@@ -372,6 +374,7 @@
       <uservisible>false</uservisible>
       <packagelist>
          <packagereq type="mandatory">epel-release</packagereq>
+         <packagereq type="mandatory">nagios</packagereq>
       </packagelist>
   </group>
   <category>
