@@ -355,6 +355,23 @@
      <packagereq type='mandatory'>gpxe-roms-qemu</packagereq>
      <packagereq type='mandatory'>sgabios-bin</packagereq>
      <packagereq type='mandatory'>man</packagereq>
+     <packagereq type='mandatory'>libX11</packagereq>
+     <packagereq type='mandatory'>libXpm</packagereq>
+     <packagereq type='mandatory'>fontconfig</packagereq>
+     <packagereq type='mandatory'>freetype</packagereq>
+     <packagereq type='mandatory'>pulseaudio-libs</packagereq>
+     <packagereq type='mandatory'>libconfig</packagereq>
+     <packagereq type='mandatory'>libgomp</packagereq>
+     <packagereq type='mandatory'>cvs</packagereq>
+     <packagereq type='mandatory'>libnl</packagereq>
+     <packagereq type='mandatory'>lzma</packagereq>
+     <packagereq type='mandatory'>python-twisted-web</packagereq>
+     <packagereq type='mandatory'>python-twisted-core</packagereq>
+     <packagereq type='mandatory'>python-twisted-conch</packagereq>
+     <packagereq type='mandatory'>python-zope-interface</packagereq>
+     <packagereq type='mandatory'>PyQt4</packagereq>
+     <packagereq type='mandatory'>hdparm</packagereq>
+     <packagereq type='mandatory'>hal</packagereq>
     </packagelist>
   </group>
   <group>
