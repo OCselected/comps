@@ -320,7 +320,6 @@
      <packagereq type='mandatory'>netcf-libs</packagereq>
      <packagereq type='mandatory'>perl-version</packagereq>
      <packagereq type='mandatory'>spice-server</packagereq>
-     <packagereq type='mandatory'>pulseaudio-libs</packagereq>
      <packagereq type='mandatory'>perl-Pod-Escapes</packagereq>
      <packagereq type='mandatory'>keyutils</packagereq>
      <packagereq type='mandatory'>libtirpc</packagereq>
@@ -331,6 +330,22 @@
      <packagereq type='mandatory'>fuse</packagereq>
      <packagereq type='mandatory'>fuse-libs</packagereq>
      <packagereq type='mandatory'>hivex</packagereq>
+     <packagereq type='mandatory'>celt051</packagereq>
+     <packagereq type='mandatory'>pixman</packagereq>
+     <packagereq type='mandatory'>pkgconfig</packagereq>
+     <packagereq type='mandatory'>mcstrans</packagereq>
+     <packagereq type='mandatory'>compat-readline5</packagereq>
+     <packagereq type='mandatory'>libselinux-ruby</packagereq>
+     <packagereq type='mandatory'>libICE</packagereq>
+     <packagereq type='mandatory'>libguestfs-tools-c</packagereq>
+     <packagereq type='mandatory'>dnsmasq-utils</packagereq>
+     <packagereq type='mandatory'>gd</packagereq>
+     <packagereq type='mandatory'>libvirt-client</packagereq>
+     <packagereq type='mandatory'>numactl</packagereq>
+     <packagereq type='mandatory'>libpcap</packagereq>
+     <packagereq type='mandatory'>libtasn1</packagereq>
+     <packagereq type='mandatory'>ConsoleKit-libs</packagereq>
+     <packagereq type='mandatory'>alsa-lib</packagereq>
     </packagelist>
   </group>
   <group>
