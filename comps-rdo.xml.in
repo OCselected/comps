@@ -344,6 +344,7 @@
      <packagereq type='mandatory'>ConsoleKit-libs</packagereq>
      <packagereq type='mandatory'>alsa-lib</packagereq>
      <packagereq type='mandatory'>libusb1</packagereq>
+     <packagereq type='mandatory'>libusb</packagereq>
      <packagereq type='mandatory'>cyrus-sasl-md5</packagereq>
      <packagereq type='mandatory'>gettext</packagereq>
      <packagereq type='mandatory'>gnutls-utils</packagereq>
@@ -388,6 +389,12 @@
      <packagereq type='mandatory'>hal-info</packagereq>
      <packagereq type='mandatory'>hal-libs</packagereq>
      <packagereq type='mandatory'>hivex</packagereq>
+     <packagereq type='mandatory'>libXau</packagereq>
+     <packagereq type='mandatory'>flac</packagereq>
+     <packagereq type='mandatory'>libvorbis</packagereq>
+     <packagereq type='mandatory'>libXft</packagereq>
+     <packagereq type='mandatory'>libXrender</packagereq>
+     <packagereq type='mandatory'>perl-hivex</packagereq>
     </packagelist>
   </group>
   <group>
@@ -604,7 +611,7 @@
          <packagereq type="mandatory">ruby-augeas</packagereq>
          <packagereq type="mandatory">python-psutil</packagereq>
          <packagereq type="mandatory">python-werkzeug</packagereq>
-         <packagereq type="mandatory">python-jinja2</packagereq>
+         <packagereq type="mandatory">python-jinja2-26</packagereq>
          <packagereq type="mandatory">libyaml</packagereq>
          <packagereq type="mandatory">ruby-shadow</packagereq>
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
