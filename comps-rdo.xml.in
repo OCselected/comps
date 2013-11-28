@@ -395,6 +395,8 @@
      <packagereq type='mandatory'>libXft</packagereq>
      <packagereq type='mandatory'>libXrender</packagereq>
      <packagereq type='mandatory'>perl-hivex</packagereq>
+     <packagereq type='mandatory'>augeas</packagereq>
+     <packagereq type='mandatory'>python-sphinx</packagereq>
     </packagelist>
   </group>
   <group>
@@ -485,6 +487,7 @@
       <packagereq type="mandatory">openstack-swift-doc</packagereq>
       <packagereq type="mandatory">openstack-swift-object</packagereq>
       <packagereq type="mandatory">openstack-swift-proxy</packagereq>
+      <packagereq type="mandatory">openstack-swift-plugin-swift3</packagereq>
       <packagereq type="mandatory">openstack-utils</packagereq>
       <packagereq type="mandatory">openvswitch</packagereq>
       <packagereq type="mandatory">openvswitch-controller</packagereq>
@@ -615,6 +618,10 @@
          <packagereq type="mandatory">libyaml</packagereq>
          <packagereq type="mandatory">ruby-shadow</packagereq>
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
+         <packagereq type="mandatory">foreman</packagereq>
+         <packagereq type="mandatory">foreman-installer</packagereq>
+         <packagereq type="mandatory">foreman-mysql</packagereq>
+         <packagereq type="mandatory">foreman-plugin-simplify</packagereq>
       </packagelist>
   </group>
   <category>
