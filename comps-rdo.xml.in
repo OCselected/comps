@@ -400,6 +400,10 @@
      <packagereq type='mandatory'>python-sphinx</packagereq>
      <packagereq type='mandatory'>python-jinja2</packagereq>
      <packagereq type='mandatory'>python-docutils</packagereq>
+     <packagereq type='mandatory'>python-imaging</packagereq>
+     <packagereq type='mandatory'>scl-utils</packagereq>
+     <packagereq type='mandatory'>libicu</packagereq>
+     <packagereq type='mandatory'>ruby-irb</packagereq>
      <packagereq type='mandatory'>rubygems</packagereq>
     </packagelist>
   </group>
@@ -679,11 +683,28 @@
          <packagereq type="mandatory">ruby193-rubygem-bundler</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-audited</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-bigdecimal</packagereq>
-         <packagereq type="mandatory">ruby193-rubygem-actionmaile</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-actionmailer</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-actionpack</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-coffee-rails</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-sass-rails</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-uglifier</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-diff-lcs</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-sass</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-tilt</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-rack-ssl</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-coffee-script</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-net-http-persistent</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-activeresource</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-i18n</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-activemodel</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-arel</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-tzinfo</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-builder</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-erubis</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-journey</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-rack-cache</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-rack-test</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-sprockets</packagereq>
          <packagereq type="mandatory">rubygem-kafo</packagereq>
          <packagereq type="mandatory">rubygem-highline</packagereq>
          <packagereq type="mandatory">rubygem-foreman_api</packagereq>
@@ -694,6 +715,11 @@
          <packagereq type="mandatory">rubygem-json</packagereq>
          <packagereq type="mandatory">rubygem-oauth</packagereq>
          <packagereq type="mandatory">rubygem-rest-client</packagereq>
+         <packagereq type='mandatory'>rubygem-mime-types</packagereq>
+         <packagereq type='mandatory'>rubygem-ansi</packagereq>
+         <packagereq type='mandatory'>rubygem-hashie</packagereq>
+         <packagereq type='mandatory'>rubygem-little-plugger</packagereq>
+         <packagereq type='mandatory'>rubygem-multi_json</packagereq>
       </packagelist>
   </group>
   <category>
