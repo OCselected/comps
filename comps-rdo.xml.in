@@ -630,7 +630,7 @@
          <packagereq type="mandatory">foreman</packagereq>
          <packagereq type="mandatory">foreman-installer</packagereq>
          <packagereq type="mandatory">foreman-mysql</packagereq>
-         <packagereq type="mandatory">uby193-rubygem-foreman_simplify</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-foreman_simplify</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-mysql</packagereq>
          <packagereq type="mandatory">ruby193-facter</packagereq>
          <packagereq type="mandatory">ruby193-ruby</packagereq>
@@ -709,6 +709,7 @@
          <packagereq type='mandatory'>ruby193-rubygem-hike</packagereq>
          <packagereq type='mandatory'>ruby193-rubygem-coffee-script-source</packagereq>
          <packagereq type='mandatory'>ruby193-rubygem-mail</packagereq>
+         <packagereq type='mandatory'>ruby193-rubygem-treetop</packagereq>
          <packagereq type="mandatory">rubygem-kafo</packagereq>
          <packagereq type="mandatory">rubygem-highline</packagereq>
          <packagereq type="mandatory">rubygem-foreman_api</packagereq>
