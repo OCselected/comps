@@ -396,7 +396,10 @@
      <packagereq type='mandatory'>libXrender</packagereq>
      <packagereq type='mandatory'>perl-hivex</packagereq>
      <packagereq type='mandatory'>augeas</packagereq>
+     <packagereq type='mandatory'>wget</packagereq>
      <packagereq type='mandatory'>python-sphinx</packagereq>
+     <packagereq type='mandatory'>python-jinja2</packagereq>
+     <packagereq type='mandatory'>python-docutils</packagereq>
     </packagelist>
   </group>
   <group>
@@ -622,6 +625,39 @@
          <packagereq type="mandatory">foreman-installer</packagereq>
          <packagereq type="mandatory">foreman-mysql</packagereq>
          <packagereq type="mandatory">foreman-plugin-simplify</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-mysql</packagereq>
+         <packagereq type="mandatory">ruby193-facter</packagereq>
+         <packagereq type="mandatory">ruby193-ruby</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-ancestry</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-apipie-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-audited-activerecord</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-bundler_ext</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-fast_gettext</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-foreigner</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-gettext_i18n_rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-gettext_i18n_rails_js</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-i18n_data</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-jquery-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-jquery-ui-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-json</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-net-ldap</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-oauth</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-rabl</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-rake</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-rest-client</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-ruby_parser</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-safemode</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-scoped_search</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-therubyracer</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-thin</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-twitter-bootstrap-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-uuidtools</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-will_paginate</packagereq>
+         <packagereq type="mandatory">ruby193-rubygems</packagereq>
+         <packagereq type="mandatory">rubygem-kafo</packagereq>
+         <packagereq type="mandatory">rubygem-highline</packagereq>
+         <packagereq type="mandatory">rubygem-foreman_api</packagereq>
       </packagelist>
   </group>
   <category>
