@@ -400,6 +400,7 @@
      <packagereq type='mandatory'>python-sphinx</packagereq>
      <packagereq type='mandatory'>python-jinja2</packagereq>
      <packagereq type='mandatory'>python-docutils</packagereq>
+     <packagereq type='mandatory'>rubygems</packagereq>
     </packagelist>
   </group>
   <group>
@@ -655,9 +656,44 @@
          <packagereq type="mandatory">ruby193-rubygem-uuidtools</packagereq>
          <packagereq type="mandatory">ruby193-rubygem-will_paginate</packagereq>
          <packagereq type="mandatory">ruby193-rubygems</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-io-console</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-rdoc</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-activerecord</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-execjs</packagereq>
+         <packagereq type="mandatory">ruby193-ruby-irb</packagereq>
+         <packagereq type="mandatory">ruby193-ruby-libs</packagereq>
+         <packagereq type="mandatory">ruby193-runtime</packagereq>
+         <packagereq type="mandatory">ruby193-v8</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-railties</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-daemons</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-eventmachine</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-rack</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-ref</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-ruby2ruby</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-sexp_processor</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-mime-types</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-activesupport</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-multi_json</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-thor</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-po_to_json</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-bundler</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-audited</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-bigdecimal</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-actionmaile</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-actionpack</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-coffee-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-sass-rails</packagereq>
+         <packagereq type="mandatory">ruby193-rubygem-uglifier</packagereq>
          <packagereq type="mandatory">rubygem-kafo</packagereq>
          <packagereq type="mandatory">rubygem-highline</packagereq>
          <packagereq type="mandatory">rubygem-foreman_api</packagereq>
+         <packagereq type="mandatory">rubygem-clamp</packagereq>
+         <packagereq type="mandatory">rubygem-logging</packagereq>
+         <packagereq type="mandatory">rubygem-powerbar</packagereq>
+         <packagereq type="mandatory">rubygem-rdoc</packagereq>
+         <packagereq type="mandatory">rubygem-json</packagereq>
+         <packagereq type="mandatory">rubygem-oauth</packagereq>
+         <packagereq type="mandatory">rubygem-rest-client</packagereq>
       </packagelist>
   </group>
   <category>
