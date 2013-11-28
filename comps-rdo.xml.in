@@ -227,7 +227,6 @@
      <packagereq type='mandatory'>qemu-img</packagereq>
      <packagereq type='mandatory'>sysfsutils</packagereq>
      <packagereq type='mandatory'>python-configobj</packagereq>
-     <packagereq type='mandatory'>dnsmasq</packagereq>
      <packagereq type='mandatory'>libvirt-python</packagereq>
      <packagereq type='mandatory'>busybox</packagereq>
      <packagereq type='mandatory'>kpartx</packagereq>
@@ -337,7 +336,6 @@
      <packagereq type='mandatory'>libselinux-ruby</packagereq>
      <packagereq type='mandatory'>libICE</packagereq>
      <packagereq type='mandatory'>libguestfs-tools-c</packagereq>
-     <packagereq type='mandatory'>dnsmasq-utils</packagereq>
      <packagereq type='mandatory'>gd</packagereq>
      <packagereq type='mandatory'>libvirt-client</packagereq>
      <packagereq type='mandatory'>numactl</packagereq>
@@ -364,19 +362,32 @@
      <packagereq type='mandatory'>libgomp</packagereq>
      <packagereq type='mandatory'>cvs</packagereq>
      <packagereq type='mandatory'>libnl</packagereq>
-     <packagereq type='mandatory'>lzma</packagereq>
+     <packagereq type='mandatory'>xz-lzma-compat</packagereq>
      <packagereq type='mandatory'>python-twisted-web</packagereq>
      <packagereq type='mandatory'>python-twisted-core</packagereq>
      <packagereq type='mandatory'>python-twisted-conch</packagereq>
      <packagereq type='mandatory'>python-zope-interface</packagereq>
      <packagereq type='mandatory'>python-zope-filesystem</packagereq>
-     <packagereq type='mandatory'>PyQt4</packagereq>
      <packagereq type='mandatory'>hdparm</packagereq>
      <packagereq type='mandatory'>hal</packagereq>
      <packagereq type='mandatory'>SOAPpy</packagereq>
      <packagereq type='mandatory'>tkinter</packagereq>
      <packagereq type='mandatory'>libSM</packagereq>
      <packagereq type='mandatory'>libXtst</packagereq>
+     <packagereq type='mandatory'>python-fpconst</packagereq>
+     <packagereq type='mandatory'>PyXML</packagereq>
+     <packagereq type='mandatory'>tcl</packagereq>
+     <packagereq type='mandatory'>tix</packagereq>
+     <packagereq type='mandatory'>tk</packagereq>
+     <packagereq type='mandatory'>libasyncns</packagereq>
+     <packagereq type='mandatory'>libsndfile</packagereq>
+     <packagereq type='mandatory'>libXext</packagereq>
+     <packagereq type='mandatory'>libXi</packagereq>
+     <packagereq type='mandatory'>libX11-common</packagereq>
+     <packagereq type='mandatory'>libxcb</packagereq>
+     <packagereq type='mandatory'>hal-info</packagereq>
+     <packagereq type='mandatory'>hal-libs</packagereq>
+     <packagereq type='mandatory'>hivex</packagereq>
     </packagelist>
   </group>
   <group>
@@ -387,6 +398,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">diskimage-builder</packagereq>
+      <packagereq type='mandatory'>dnsmasq-utils</packagereq>
       <packagereq type="mandatory">dnsmasq</packagereq>
       <packagereq type="mandatory">heat-cfntools</packagereq>
       <packagereq type="mandatory">iproute</packagereq>
@@ -432,7 +444,7 @@
       <packagereq type="mandatory">openstack-neutron-cisco</packagereq>
       <packagereq type="mandatory">openstack-neutron-hyperv</packagereq>
       <packagereq type="mandatory">openstack-neutron-linuxbridge</packagereq>
-      <packagereq type="mandatory">openstack-neutron-meetering-agent</packagereq>
+      <packagereq type="mandatory">openstack-neutron-metering-agent</packagereq>
       <packagereq type="mandatory">openstack-neutron-mellanox</packagereq>
       <packagereq type="mandatory">openstack-neutron-metaplugin</packagereq>
       <packagereq type="mandatory">openstack-neutron-midonet</packagereq>
@@ -470,7 +482,6 @@
       <packagereq type="mandatory">openvswitch</packagereq>
       <packagereq type="mandatory">openvswitch-controller</packagereq>
       <packagereq type="mandatory">openvswitch-test</packagereq>
-      <packagereq type="mandatory">ovsdbmonitor</packagereq>
       <packagereq type="mandatory">packstack-modules-puppet</packagereq>
       <packagereq type="mandatory">perf</packagereq>
       <packagereq type="mandatory">python-backports</packagereq>
@@ -559,7 +570,6 @@
          <packagereq type="mandatory">python-boto</packagereq>
          <packagereq type="mandatory">python-eventlet</packagereq>
          <packagereq type="mandatory">python-greenlet</packagereq>
-         <packagereq type="mandatory">python-jinja2</packagereq>
          <packagereq type="mandatory">python-kombu</packagereq>
          <packagereq type="mandatory">python-paste-deploy1.5</packagereq>
          <packagereq type="mandatory">python-routes1.12</packagereq>
@@ -594,7 +604,6 @@
          <packagereq type="mandatory">ruby-augeas</packagereq>
          <packagereq type="mandatory">python-psutil</packagereq>
          <packagereq type="mandatory">python-werkzeug</packagereq>
-         <packagereq type="mandatory">python-sphinx10</packagereq>
          <packagereq type="mandatory">python-jinja2</packagereq>
          <packagereq type="mandatory">libyaml</packagereq>
          <packagereq type="mandatory">ruby-shadow</packagereq>
