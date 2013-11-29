@@ -438,7 +438,6 @@
       <packagereq type="mandatory">openstack-cinder-doc</packagereq>
       <packagereq type="mandatory">openstack-dashboard</packagereq>
       <packagereq type="mandatory">openstack-dashboard-theme</packagereq>
-      <packagereq type="mandatory">openstack-foreman-installer</packagereq>
       <packagereq type="mandatory">openstack-designate</packagereq>
       <packagereq type="mandatory">openstack-designate-agent</packagereq>
       <packagereq type="mandatory">openstack-designate-api</packagereq>
@@ -627,6 +626,16 @@
          <packagereq type="mandatory">libyaml</packagereq>
          <packagereq type="mandatory">ruby-shadow</packagereq>
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
+     </packagelist>
+  </group>
+  <group>
+      <id>foreman</id>
+      <_name>openstack-foreman</_name>
+      <_description>foreman is a complete lifecycle management tool for physical and virtual servers.</_description>
+      <default>true</default>
+      <uservisible>false</uservisible>
+      <packagelist>
+         <packagereq type="mandatory">openstack-foreman-installer</packagereq>
          <packagereq type="mandatory">foreman</packagereq>
          <packagereq type="mandatory">foreman-installer</packagereq>
          <packagereq type="mandatory">foreman-mysql</packagereq>
