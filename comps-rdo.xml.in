@@ -412,7 +412,7 @@
     <id>openstack</id>
     <_name>packstack</_name>
     <_description>OpenStack packstack</_description>
-    <default>false</default>
+    <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">diskimage-builder</packagereq>
@@ -632,7 +632,7 @@
       <id>foreman</id>
       <_name>openstack-foreman</_name>
       <_description>foreman is a complete lifecycle management tool for physical and virtual servers.</_description>
-      <default>true</default>
+      <default>false</default>
       <uservisible>false</uservisible>
       <packagelist>
          <packagereq type="mandatory">openstack-foreman-installer</packagereq>
