@@ -559,7 +559,7 @@
       <packagereq type="mandatory">python-websockify</packagereq>
       <packagereq type="mandatory">python-webtest</packagereq>
       <packagereq type="mandatory">python-wsme</packagereq>
-      <packagereq type="mandatory">rdo-release-havana</packagereq>
+      <packagereq type="mandatory">rdo-release</packagereq>
       <packagereq type="mandatory">selinux-policy</packagereq>
       <packagereq type="mandatory">selinux-policy-doc</packagereq>
       <packagereq type="mandatory">selinux-policy-minimum</packagereq>
