@@ -407,11 +407,19 @@
      <packagereq type='mandatory'>rubygems</packagereq>
      <packagereq type='mandatory'>ruby-rdoc</packagereq>
      <packagereq type='mandatory'>boost-filesystem</packagereq>
-     <packagereq type='mandatory'>boost</packagereq>
      <packagereq type='mandatory'>boost-iostreams</packagereq>
      <packagereq type='mandatory'>boost-program-options</packagereq>
      <packagereq type='mandatory'>boost-system</packagereq>
      <packagereq type='mandatory'>boost-thread</packagereq>
+     <packagereq type='mandatory'>boost</packagereq>
+     <packagereq type='mandatory'>boost-wave</packagereq>
+     <packagereq type='mandatory'>boost-test</packagereq>
+     <packagereq type='mandatory'>boost-signals</packagereq>
+     <packagereq type='mandatory'>boost-serialization</packagereq>
+     <packagereq type='mandatory'>boost-regex</packagereq>
+     <packagereq type='mandatory'>boost-python</packagereq>
+     <packagereq type='mandatory'>boost-graph</packagereq>
+     <packagereq type='mandatory'>boost-date-time</packagereq>
     </packagelist>
   </group>
   <group>
@@ -637,6 +645,7 @@
          <packagereq type="mandatory">v8</packagereq>
          <packagereq type="mandatory">snappy</packagereq>
          <packagereq type="mandatory">gperftools-libs</packagereq>
+         <packagereq type="mandatory">libunwind</packagereq>
      </packagelist>
   </group>
   <group>
