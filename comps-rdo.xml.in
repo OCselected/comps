@@ -626,6 +626,8 @@
          <packagereq type="mandatory">libyaml</packagereq>
          <packagereq type="mandatory">ruby-shadow</packagereq>
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
+         <packagereq type="mandatory">mongodb-server</packagereq>
+         <packagereq type="mandatory">mongodb</packagereq>
      </packagelist>
   </group>
   <group>
