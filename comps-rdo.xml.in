@@ -420,6 +420,17 @@
      <packagereq type='mandatory'>boost-python</packagereq>
      <packagereq type='mandatory'>boost-graph</packagereq>
      <packagereq type='mandatory'>boost-date-time</packagereq>
+     <packagereq type='mandatory'>qpid-cpp-client</packagereq>
+     <packagereq type='mandatory'>qpid-cpp-server</packagereq>
+     <packagereq type='mandatory'>yum-plugin-priorities</packagereq>
+     <packagereq type='mandatory'>usermode</packagereq>
+     <packagereq type='mandatory'>tuned</packagereq>
+     <packagereq type='mandatory'>libgfortran</packagereq>
+     <packagereq type='mandatory'>atlas</packagereq>
+     <packagereq type='mandatory'>python-nose</packagereq>
+     <packagereq type='mandatory'>numpy</packagereq>
+     <packagereq type='mandatory'>memcached</packagereq>
+     <packagereq type='mandatory'>xinetd</packagereq>
     </packagelist>
   </group>
   <group>
