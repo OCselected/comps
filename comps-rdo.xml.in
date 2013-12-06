@@ -406,6 +406,12 @@
      <packagereq type='mandatory'>ruby-irb</packagereq>
      <packagereq type='mandatory'>rubygems</packagereq>
      <packagereq type='mandatory'>ruby-rdoc</packagereq>
+     <packagereq type='mandatory'>boost-filesystem</packagereq>
+     <packagereq type='mandatory'>boost</packagereq>
+     <packagereq type='mandatory'>boost-iostreams</packagereq>
+     <packagereq type='mandatory'>boost-program-options</packagereq>
+     <packagereq type='mandatory'>boost-system</packagereq>
+     <packagereq type='mandatory'>boost-thread</packagereq>
     </packagelist>
   </group>
   <group>
@@ -628,6 +634,9 @@
          <packagereq type="mandatory">python-backports-ssl_match_hostname</packagereq>
          <packagereq type="mandatory">mongodb-server</packagereq>
          <packagereq type="mandatory">mongodb</packagereq>
+         <packagereq type="mandatory">v8</packagereq>
+         <packagereq type="mandatory">snappy</packagereq>
+         <packagereq type="mandatory">gperftools-libs</packagereq>
      </packagelist>
   </group>
   <group>
