@@ -88,7 +88,6 @@
       <packagereq type="mandatory">postgresql</packagereq>
       <packagereq type="mandatory">libXrender</packagereq>
       <packagereq type="mandatory">xz-lzma-compat</packagereq>
-      <packagereq type="mandatory">libgcj</packagereq>
       <packagereq type="mandatory">freetype</packagereq>
       <packagereq type="mandatory">giflib</packagereq>
       <packagereq type="mandatory">uuid</packagereq>
@@ -112,7 +111,8 @@
       <packagereq type="mandatory">yum-plugin-versionlock</packagereq>
       <packagereq type="mandatory">java-1.7.0-openjdk</packagereq>
       <packagereq type="mandatory">xorg-x11-fonts-Type1</packagereq>
-      <packagereq type="mandatory">xorg-x11-fonts-utils</packagereq>
+      <packagereq type="mandatory">xorg-x11-font-utils</packagereq>
+      <packagereq type="mandatory">shared-mime-info</packagereq>
       <packagereq type="mandatory">libjpeg-turbo</packagereq>
       <packagereq type="mandatory">tzdata-java</packagereq>
       <packagereq type="mandatory">urw-fonts</packagereq>
@@ -159,7 +159,6 @@
       <packagereq type="mandatory">newt</packagereq>
       <packagereq type="mandatory">newt-python</packagereq>
       <packagereq type="mandatory">bsh</packagereq>
-      <packagereq type="mandatory">hamcrest</packagereq>
       <packagereq type="mandatory">base64coder</packagereq>
       <packagereq type="mandatory">ecj</packagereq>
       <packagereq type="mandatory">apache-tomcat-apis</packagereq>
@@ -169,8 +168,6 @@
       <packagereq type="mandatory">mailcap</packagereq>
       <packagereq type="mandatory">python-lxml</packagereq>
       <packagereq type="mandatory">python-dateutil</packagereq>
-      <packagereq type="mandatory">xmldb-api-sdk</packagereq>
-      <packagereq type="mandatory">xmldb-api</packagereq>
       <packagereq type="mandatory">yum</packagereq>
       <packagereq type="mandatory">yum-plugin-fastestmirror</packagereq>
       <packagereq type="mandatory">yum-metadata-parser</packagereq>
@@ -283,7 +280,6 @@
     <packagereq type="mandatory">isomd5sum</packagereq>
     <packagereq type="mandatory">kernel</packagereq>
     <packagereq type="mandatory">kernel-firmware</packagereq>
-    <packagereq type="mandatory">kexec-tools</packagereq>
     <packagereq type="mandatory">keyutils-libs</packagereq>
     <packagereq type="mandatory">kmod-openvswitch</packagereq>
     <packagereq type="mandatory">kpartx</packagereq>
@@ -299,6 +295,7 @@
     <packagereq type="mandatory">libXext</packagereq>
     <packagereq type="mandatory">libXi</packagereq>
     <packagereq type="mandatory">libXtst</packagereq>
+    <packagereq type="mandatory">libXt</packagereq>
     <packagereq type="mandatory">libacl</packagereq>
     <packagereq type="mandatory">libaio</packagereq>
     <packagereq type="mandatory">libasyncns</packagereq>
@@ -337,6 +334,7 @@
     <packagereq type="mandatory">libpcap</packagereq>
     <packagereq type="mandatory">libpciaccess</packagereq>
     <packagereq type="mandatory">libpng</packagereq>
+    <packagereq type="mandatory">librdmacm</packagereq>
     <packagereq type="mandatory">libtasn1</packagereq>
     <packagereq type="mandatory">libsemanage</packagereq>
     <packagereq type="mandatory">libsemanage-python</packagereq>
@@ -507,6 +505,10 @@
     <packagereq type="mandatory">xz-libs</packagereq>
     <packagereq type="mandatory">yajl</packagereq>
     <packagereq type="mandatory">zlib</packagereq>
+    <packagereq type="mandatory">pth</packagereq>
+    <packagereq type="mandatory">gnupg2</packagereq>
+    <packagereq type="mandatory">redhat-lsb-core</packagereq>
+    <packagereq type="mandatory">mkfontdir</packagereq>
     </packagelist>
   </group>
   <group>
@@ -559,6 +561,7 @@
     <packagereq type="mandatory">ovirt-host-deploy-java</packagereq>
     <packagereq type="mandatory">ovirt-host-deploy-offline</packagereq>
     <packagereq type="mandatory">vdsm</packagereq>
+    <packagereq type="mandatory">mom</packagereq>
     <packagereq type="mandatory">vdsm-cli</packagereq>
     <packagereq type="mandatory">vdsm-python</packagereq>
     <packagereq type="mandatory">vdsm-python-cpopen</packagereq>
