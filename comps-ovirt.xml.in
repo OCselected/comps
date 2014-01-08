@@ -113,8 +113,6 @@
       <packagereq type="mandatory">rpm-python</packagereq>
       <packagereq type="mandatory">yum-plugin-versionlock</packagereq>
       <packagereq type="mandatory">java-1.7.0-openjdk</packagereq>
-      <packagereq type="mandatory">java-1.6.0-openjdk</packagereq>
-      <packagereq type="mandatory">java-1.6.0-openjdk-devel</packagereq>
       <packagereq type="mandatory">classpathx-mail</packagereq>
       <packagereq type="mandatory">classpathx-jaf</packagereq>
       <packagereq type="mandatory">ws-commons-util</packagereq>
@@ -166,7 +164,6 @@
       <packagereq type="mandatory">hamcrest</packagereq>
       <packagereq type="mandatory">base64coder</packagereq>
       <packagereq type="mandatory">ecj</packagereq>
-      <packagereq type="mandatory">ws-jaxme</packagereq>
       <packagereq type="mandatory">apache-tomcat-apis</packagereq>
       <packagereq type="mandatory">jakarta-oro</packagereq>
       <packagereq type="mandatory">bsf</packagereq>
@@ -195,39 +192,14 @@
       <packagereq type="mandatory">junit4</packagereq>
       <packagereq type="mandatory">trilead-ssh2</packagereq>
       <packagereq type="mandatory">subversion-javahl</packagereq>
-      <packagereq type="mandatory">eclipse-platform</packagereq>
       <packagereq type="mandatory">werken-xpath</packagereq>
       <packagereq type="mandatory">tomcat6-servlet-2.5-api</packagereq>
       <packagereq type="mandatory">subversion</packagereq>
       <packagereq type="mandatory">neon</packagereq>
       <packagereq type="mandatory">saxon-scripts</packagereq>
       <packagereq type="mandatory">saxon</packagereq>
-      <packagereq type="mandatory">fop</packagereq>
       <packagereq type="mandatory">pinentry</packagereq>
       <packagereq type="mandatory">sat4j</packagereq>
-      <packagereq type="mandatory">lucene-contrib</packagereq>
-      <packagereq type="mandatory">lucene</packagereq>
-      <packagereq type="mandatory">jetty-eclipse</packagereq>
-      <packagereq type="mandatory">jakarta-commons-el</packagereq>
-      <packagereq type="mandatory">eclipse-rcp</packagereq>
-      <packagereq type="mandatory">apache-jasper</packagereq>
-      <packagereq type="mandatory">ant-trax</packagereq>
-      <packagereq type="mandatory">ant-swing</packagereq>
-      <packagereq type="mandatory">ant-jsch</packagereq>
-      <packagereq type="mandatory">ant-jdepend</packagereq>
-      <packagereq type="mandatory">ant-javamail</packagereq>
-      <packagereq type="mandatory">ant-commons-net</packagereq>
-      <packagereq type="mandatory">ant-commons-logging</packagereq>
-      <packagereq type="mandatory">ant-apache-resolver</packagereq>
-      <packagereq type="mandatory">ant-apache-regexp</packagereq>
-      <packagereq type="mandatory">ant-apache-oro</packagereq>
-      <packagereq type="mandatory">ant-apache-log4j</packagereq>
-      <packagereq type="mandatory">ant-apache-bsf</packagereq>
-      <packagereq type="mandatory">ant-apache-bcel</packagereq>
-      <packagereq type="mandatory">ant-antlr</packagereq>
-      <packagereq type="mandatory">icu4j-eclipse</packagereq>
-      <packagereq type="mandatory">eclipse-swt</packagereq>
-      <packagereq type="mandatory">jdepend</packagereq>
       <packagereq type="mandatory">xmlgraphics-commons</packagereq>
       <packagereq type="mandatory">batik</packagereq>
       <packagereq type="mandatory">avalon-framework</packagereq>
@@ -239,7 +211,6 @@
       <packagereq type="mandatory">libproxy-python</packagereq>
       <packagereq type="mandatory">libproxy-bin</packagereq>
       <packagereq type="mandatory">axis</packagereq>
-      <packagereq type="mandatory">xulrunner</packagereq>
       <packagereq type="mandatory">wsdl4j</packagereq>
       <packagereq type="mandatory">mozilla-filesystem</packagereq>
       <packagereq type="mandatory">startup-notification</packagereq>
@@ -657,31 +628,6 @@
     <packagereq type="mandatory">vdsm-hook-vhostmd</packagereq>
     <packagereq type="mandatory">vdsm-hook-vmdisk</packagereq>
     <packagereq type="mandatory">vdsm-reg</packagereq>
-    </packagelist>
-  </group>
-  <category>
-    <id>Bothcategory</id>
-    <_name>All</_name>
-    </packagelist>
-  </group>
-  <category>
-    <id>Bothcategory</id>
-    <_name>All</_name>
-    </packagelist>
-  </group>
-  <category>
-    <id>Bothcategory</id>
-    <_name>All</_name>
-    </packagelist>
-  </group>
-  <category>
-    <id>Bothcategory</id>
-    <_name>All</_name>
-    </packagelist>
-  </group>
-  <category>
-    <id>Bothcategory</id>
-    <_name>All</_name>
     </packagelist>
   </group>
   <category>
