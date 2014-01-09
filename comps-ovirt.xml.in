@@ -122,10 +122,7 @@
       <packagereq type="mandatory">jakarta-commons-lang</packagereq>
       <packagereq type="mandatory">jakarta-commons-collections</packagereq>
       <packagereq type="mandatory">jakarta-commons-digester</packagereq>
-      <packagereq type="mandatory">jakarta-commons-dbcp</packagereq>
-      <packagereq type="mandatory">jakarta-commons-beanutils</packagereq>
       <packagereq type="mandatory">jdom</packagereq>
-      <packagereq type="mandatory">xalan-j2</packagereq>
       <packagereq type="mandatory">jline</packagereq>
       <packagereq type="mandatory">libart_lgpl</packagereq>
       <packagereq type="mandatory">rhino</packagereq>
@@ -500,6 +497,7 @@
     <packagereq type="mandatory">pinentry</packagereq>
     <packagereq type="mandatory">libfontenc</packagereq>
     <packagereq type="mandatory">libXfont</packagereq>
+    <packagereq type="mandatory">redhat-lsb-core</packagereq>
     </packagelist>
   </group>
   <group>
@@ -578,9 +576,10 @@
     <packagereq type="mandatory">vdsm-hook-smartcard</packagereq>
     <packagereq type="mandatory">vdsm-hook-smbios</packagereq>
     <packagereq type="mandatory">vdsm-hook-sriov</packagereq>
-    <packagereq type="mandatory">vdsm-hook-vhostmd</packagereq>
     <packagereq type="mandatory">vdsm-hook-vmdisk</packagereq>
     <packagereq type="mandatory">vdsm-reg</packagereq>
+    <packagereq type="mandatory">redhat-logos</packagereq>
+    <packagereq type="mandatory">centos-release</packagereq>
     </packagelist>
   </group>
   <category>
