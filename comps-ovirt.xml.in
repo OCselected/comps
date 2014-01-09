@@ -121,8 +121,6 @@
       <packagereq type="mandatory">jakarta-commons-logging</packagereq>
       <packagereq type="mandatory">jakarta-commons-lang</packagereq>
       <packagereq type="mandatory">jakarta-commons-collections</packagereq>
-      <packagereq type="mandatory">jakarta-commons-digester</packagereq>
-      <packagereq type="mandatory">jdom</packagereq>
       <packagereq type="mandatory">jline</packagereq>
       <packagereq type="mandatory">libart_lgpl</packagereq>
       <packagereq type="mandatory">rhino</packagereq>
@@ -150,7 +148,6 @@
       <packagereq type="mandatory">bsh</packagereq>
       <packagereq type="mandatory">base64coder</packagereq>
       <packagereq type="mandatory">apache-tomcat-apis</packagereq>
-      <packagereq type="mandatory">bsf</packagereq>
       <packagereq type="mandatory">qdox</packagereq>
       <packagereq type="mandatory">mailcap</packagereq>
       <packagereq type="mandatory">python-lxml</packagereq>
@@ -290,7 +287,6 @@
     <packagereq type="mandatory">libblkid</packagereq>
     <packagereq type="mandatory">libcap</packagereq>
     <packagereq type="mandatory">libcap-ng</packagereq>
-    <packagereq type="mandatory">libcgroup</packagereq>
     <packagereq type="mandatory">libcom_err</packagereq>
     <packagereq type="mandatory">libconfig</packagereq>
     <packagereq type="mandatory">libcroco</packagereq>
@@ -497,7 +493,6 @@
     <packagereq type="mandatory">pinentry</packagereq>
     <packagereq type="mandatory">libfontenc</packagereq>
     <packagereq type="mandatory">libXfont</packagereq>
-    <packagereq type="mandatory">redhat-lsb-core</packagereq>
     </packagelist>
   </group>
   <group>
@@ -580,6 +575,7 @@
     <packagereq type="mandatory">vdsm-reg</packagereq>
     <packagereq type="mandatory">redhat-logos</packagereq>
     <packagereq type="mandatory">centos-release</packagereq>
+    <packagereq type="mandatory">libcgroup</packagereq>
     </packagelist>
   </group>
   <category>
