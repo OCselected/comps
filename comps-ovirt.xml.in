@@ -136,7 +136,6 @@
       <packagereq type="mandatory">python-pygments</packagereq>
       <packagereq type="mandatory">python-markdown</packagereq>
       <packagereq type="mandatory">python-netaddr</packagereq>
-      <packagereq type="mandatory">libart_lgpl</packagereq>
       <packagereq type="mandatory">hsqldb</packagereq>
       <packagereq type="mandatory">jakarta-commons-configuration</packagereq>
       <packagereq type="mandatory">jakarta-commons-discovery</packagereq>
@@ -323,8 +322,6 @@
     <packagereq type="mandatory">libsepol</packagereq>
     <packagereq type="mandatory">libsndfile</packagereq>
     <packagereq type="mandatory">libss</packagereq>
-    <packagereq type="mandatory">libguestfs</packagereq>
-    <packagereq type="mandatory">libguestfs-tools-c</packagereq>
     <packagereq type="mandatory">libssh2</packagereq>
     <packagereq type="mandatory">libstdc++</packagereq>
     <packagereq type="mandatory">libsysfs</packagereq>
@@ -368,8 +365,6 @@
     <packagereq type="mandatory">netcf-libs</packagereq>
     <packagereq type="mandatory">netpbm</packagereq>
     <packagereq type="mandatory">netpbm-progs</packagereq>
-    <packagereq type="mandatory">newt</packagereq>
-    <packagereq type="mandatory">newt-python</packagereq>
     <packagereq type="mandatory">nfs-utils</packagereq>
     <packagereq type="mandatory">nfs-utils-lib</packagereq>
     <packagereq type="mandatory">node_auth</packagereq>
