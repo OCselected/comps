@@ -574,7 +574,7 @@
   </group>
   <group>
       <id>ovirt-node</id>
-      <default>false</default>
+      <default>true</default>
       <uservisible>true</uservisible>
       <name>ovirt-node</name>
       <description>Virtualiztion Node Hypervisor Stack</description>
