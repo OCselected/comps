@@ -547,7 +547,7 @@
     <packagereq type="mandatory">mom</packagereq>
     <packagereq type="mandatory">vdsm-cli</packagereq>
     <packagereq type="mandatory">vdsm-python</packagereq>
-    <packagereq type="mandatory">vdsm-python-cpopen</packagereq>
+    <packagereq type="mandatory">python-cpopen</packagereq>
     <packagereq type="mandatory">vdsm-xmlrpc</packagereq>
     <packagereq type="mandatory">glusterfs</packagereq>
     <packagereq type="mandatory">glusterfs-api</packagereq>
