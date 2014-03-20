@@ -514,8 +514,8 @@
     </packagelist>
   </group>
   <group>
-    <id>ovirt</id>
-    <_name>ovirt</_name>
+    <id>ovirt-management</id>
+    <_name>ovirt-management</_name>
     <_description>Virtualiztion Centered Management Stack</_description>
     <default>true</default>
     <uservisible>true</uservisible>
@@ -577,14 +577,51 @@
     <packagereq type="mandatory">libcgroup</packagereq>
     </packagelist>
   </group>
+  <group>
+      <id>ovirt-node</id>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <name>ovirt-node</name>
+      <description>Virtualiztion Node Hypervisor Stack</description>
+      <packagelist>
+          <packagereq type="mandatory">ovirt-node</packagereq>
+          <packagereq type="mandatory">ovirt-node-plugin-cim</packagereq>
+          <packagereq type="mandatory">ovirt-node-plugin-ipmi</packagereq>
+          <packagereq type="mandatory">ovirt-node-plugin-puppet</packagereq>
+          <packagereq type="mandatory">ovirt-node-plugin-snmp</packagereq>
+          <packagereq type="mandatory">ovirt-node-plugin-vdsm</packagereq>
+          <packagereq type="mandatory">ovirt-node-selinux</packagereq>
+      </packagelist>
+  </group>
   <category>
-    <id>Bothcategory</id>
-    <_name>All</_name>
+    <id>All_in_One</id>
+    <_name>All_in_One</_name>
     <_description>All in one: include management and node</_description>
     <grouplist>
       <groupid>core</groupid>
       <groupid>epel</groupid>
-      <groupid>management</groupid>
+      <groupid>ovirt-management</groupid>
+      <groupid>ovirt-node</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>oVirt_MNG_only</id>
+    <_name>oVirt_MNG_only</_name>
+    <_description>only oVirt Mangement</_description>
+    <grouplist>
+      <groupid>core</groupid>
+      <groupid>epel</groupid>
+      <groupid>ovirt-management</groupid>
+    </grouplist>
+  </category>
+  <category>
+    <id>oVirt_Node_only</id>
+    <_name>oVirt_Node_only</_name>
+    <_description>only oVirt Mangement</_description>
+    <grouplist>
+      <groupid>core</groupid>
+      <groupid>epel</groupid>
+      <groupid>ovirt-node</groupid>
     </grouplist>
   </category>
 </comps>
