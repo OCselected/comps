@@ -487,6 +487,8 @@
     <packagereq type="mandatory">pinentry</packagereq>
     <packagereq type="mandatory">libfontenc</packagereq>
     <packagereq type="mandatory">libXfont</packagereq>
+    <packagereq type="mandatory">redhat-logos</packagereq>
+    <packagereq type="mandatory">eayunos-release</packagereq>
     </packagelist>
   </group>
   <group>
@@ -538,38 +540,12 @@
     <packagereq type="mandatory">ovirt-host-deploy</packagereq>
     <packagereq type="mandatory">ovirt-host-deploy-java</packagereq>
     <packagereq type="mandatory">ovirt-host-deploy-offline</packagereq>
-    <packagereq type="mandatory">vdsm</packagereq>
-    <packagereq type="mandatory">mom</packagereq>
-    <packagereq type="mandatory">vdsm-cli</packagereq>
-    <packagereq type="mandatory">vdsm-python</packagereq>
-    <packagereq type="mandatory">python-cpopen</packagereq>
-    <packagereq type="mandatory">vdsm-xmlrpc</packagereq>
     <packagereq type="mandatory">glusterfs</packagereq>
     <packagereq type="mandatory">glusterfs-api</packagereq>
     <packagereq type="mandatory">glusterfs-cli</packagereq>
     <packagereq type="mandatory">glusterfs-fuse</packagereq>
     <packagereq type="mandatory">glusterfs-libs</packagereq>
     <packagereq type="mandatory">glusterfs-rdma</packagereq>
-    <packagereq type="mandatory">vdsm-hook-directlun</packagereq>
-    <packagereq type="mandatory">vdsm-hook-faqemu</packagereq>
-    <packagereq type="mandatory">vdsm-hook-fileinject</packagereq>
-    <packagereq type="mandatory">vdsm-hook-floppy</packagereq>
-    <packagereq type="mandatory">vdsm-hook-hostusb</packagereq>
-    <packagereq type="mandatory">vdsm-hook-hugepages</packagereq>
-    <packagereq type="mandatory">vdsm-hook-isolatedprivatevlan</packagereq>
-    <packagereq type="mandatory">vdsm-hook-numa</packagereq>
-    <packagereq type="mandatory">vdsm-hook-pincpu</packagereq>
-    <packagereq type="mandatory">vdsm-hook-promisc</packagereq>
-    <packagereq type="mandatory">vdsm-hook-qos</packagereq>
-    <packagereq type="mandatory">vdsm-hook-scratchpad</packagereq>
-    <packagereq type="mandatory">vdsm-hook-smartcard</packagereq>
-    <packagereq type="mandatory">vdsm-hook-smbios</packagereq>
-    <packagereq type="mandatory">vdsm-hook-sriov</packagereq>
-    <packagereq type="mandatory">vdsm-hook-vmdisk</packagereq>
-    <packagereq type="mandatory">vdsm-reg</packagereq>
-    <packagereq type="mandatory">redhat-logos</packagereq>
-    <packagereq type="mandatory">centos-release</packagereq>
-    <packagereq type="mandatory">libcgroup</packagereq>
     </packagelist>
   </group>
   <group>
@@ -579,13 +555,36 @@
       <name>ovirt-node</name>
       <description>Virtualiztion Node Hypervisor Stack</description>
       <packagelist>
-          <packagereq type="mandatory">ovirt-node</packagereq>
-          <packagereq type="mandatory">ovirt-node-plugin-cim</packagereq>
-          <packagereq type="mandatory">ovirt-node-plugin-ipmi</packagereq>
-          <packagereq type="mandatory">ovirt-node-plugin-puppet</packagereq>
-          <packagereq type="mandatory">ovirt-node-plugin-snmp</packagereq>
-          <packagereq type="mandatory">ovirt-node-plugin-vdsm</packagereq>
-          <packagereq type="mandatory">ovirt-node-selinux</packagereq>
+          <packagereq type="mandatory">vdsm</packagereq>
+          <packagereq type="mandatory">mom</packagereq>
+          <packagereq type="mandatory">vdsm-cli</packagereq>
+          <packagereq type="mandatory">vdsm-python</packagereq>
+          <packagereq type="mandatory">python-cpopen</packagereq>
+          <packagereq type="mandatory">vdsm-xmlrpc</packagereq>
+          <packagereq type="mandatory">glusterfs</packagereq>
+          <packagereq type="mandatory">glusterfs-api</packagereq>
+          <packagereq type="mandatory">glusterfs-cli</packagereq>
+          <packagereq type="mandatory">glusterfs-fuse</packagereq>
+          <packagereq type="mandatory">glusterfs-libs</packagereq>
+          <packagereq type="mandatory">glusterfs-rdma</packagereq>
+          <packagereq type="mandatory">vdsm-hook-directlun</packagereq>
+          <packagereq type="mandatory">vdsm-hook-faqemu</packagereq>
+          <packagereq type="mandatory">vdsm-hook-fileinject</packagereq>
+          <packagereq type="mandatory">vdsm-hook-floppy</packagereq>
+          <packagereq type="mandatory">vdsm-hook-hostusb</packagereq>
+          <packagereq type="mandatory">vdsm-hook-hugepages</packagereq>
+          <packagereq type="mandatory">vdsm-hook-isolatedprivatevlan</packagereq>
+          <packagereq type="mandatory">vdsm-hook-numa</packagereq>
+          <packagereq type="mandatory">vdsm-hook-pincpu</packagereq>
+          <packagereq type="mandatory">vdsm-hook-promisc</packagereq>
+          <packagereq type="mandatory">vdsm-hook-qos</packagereq>
+          <packagereq type="mandatory">vdsm-hook-scratchpad</packagereq>
+          <packagereq type="mandatory">vdsm-hook-smartcard</packagereq>
+          <packagereq type="mandatory">vdsm-hook-smbios</packagereq>
+          <packagereq type="mandatory">vdsm-hook-sriov</packagereq>
+          <packagereq type="mandatory">vdsm-hook-vmdisk</packagereq>
+          <packagereq type="mandatory">vdsm-reg</packagereq>
+          <packagereq type="mandatory">libcgroup</packagereq>
       </packagelist>
   </group>
   <category>
