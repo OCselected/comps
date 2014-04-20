@@ -534,7 +534,7 @@
     <packagereq type="mandatory">ovirt-engine-userportal</packagereq>
     <packagereq type="mandatory">ovirt-engine-webadmin-portal</packagereq>
     <packagereq type="mandatory">ovirt-engine-websocket-proxy</packagereq>
-    <packagereq type="mandatory">eayun.brand</packagereq>
+    <packagereq type="mandatory">simple.ovirt.brand</packagereq>
     <packagereq type="mandatory">otopi</packagereq>
     <packagereq type="mandatory">otopi-java</packagereq>
     <packagereq type="mandatory">ovirt-host-deploy</packagereq>
