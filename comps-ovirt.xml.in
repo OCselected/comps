@@ -426,9 +426,9 @@
     <packagereq type="mandatory">python-urlgrabber</packagereq>
     <packagereq type="mandatory">python-virtinst</packagereq>
     <packagereq type="mandatory">python-psycopg2</packagereq>
-    <packagereq type="mandatory">qemu-img</packagereq>
-    <packagereq type="mandatory">qemu-kvm</packagereq>
-    <packagereq type="mandatory">qemu-kvm-tools</packagereq>
+    <packagereq type="mandatory">qemu-img-rhev</packagereq>
+    <packagereq type="mandatory">qemu-kvm-rhev</packagereq>
+    <packagereq type="mandatory">qemu-kvm-rhev-tools</packagereq>
     <packagereq type="mandatory">radvd</packagereq>
     <packagereq type="mandatory">readline</packagereq>
     <packagereq type="mandatory">rpcbind</packagereq>
@@ -546,6 +546,8 @@
     <packagereq type="mandatory">glusterfs-fuse</packagereq>
     <packagereq type="mandatory">glusterfs-libs</packagereq>
     <packagereq type="mandatory">glusterfs-rdma</packagereq>
+    <packagereq type="mandatory">virt-viewer-win</packagereq>
+    <packagereq type="mandatory">virtio-win</packagereq>
     </packagelist>
   </group>
   <group>
