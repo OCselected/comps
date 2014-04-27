@@ -588,7 +588,6 @@
           <packagereq type="mandatory">vdsm-hook-scratchpad</packagereq>
           <packagereq type="mandatory">vdsm-hook-smbios</packagereq>
           <packagereq type="mandatory">vdsm-hook-sriov</packagereq>
-          <packagereq type="mandatory">vdsm-hook-vhostmd</packagereq>
           <packagereq type="mandatory">vdsm-hook-vmdisk</packagereq>
           <packagereq type="mandatory">vdsm-hook-vmfex</packagereq>
           <packagereq type="mandatory">vdsm-reg</packagereq>
