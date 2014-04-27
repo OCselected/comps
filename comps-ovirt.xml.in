@@ -569,6 +569,7 @@
           <packagereq type="mandatory">glusterfs-fuse</packagereq>
           <packagereq type="mandatory">glusterfs-libs</packagereq>
           <packagereq type="mandatory">glusterfs-rdma</packagereq>
+          <packagereq type="mandatory">vdsm-hook-checkimages</packagereq>
           <packagereq type="mandatory">vdsm-hook-directlun</packagereq>
           <packagereq type="mandatory">vdsm-hook-faqemu</packagereq>
           <packagereq type="mandatory">vdsm-hook-fileinject</packagereq>
@@ -576,17 +577,23 @@
           <packagereq type="mandatory">vdsm-hook-hostusb</packagereq>
           <packagereq type="mandatory">vdsm-hook-hugepages</packagereq>
           <packagereq type="mandatory">vdsm-hook-isolatedprivatevlan</packagereq>
+          <packagereq type="mandatory">vdsm-hook-macspoof</packagereq>
+          <packagereq type="mandatory">vdsm-hook-nestedvt</packagereq>
           <packagereq type="mandatory">vdsm-hook-numa</packagereq>
+          <packagereq type="mandatory">vdsm-hook-openstacknet</packagereq>
           <packagereq type="mandatory">vdsm-hook-pincpu</packagereq>
           <packagereq type="mandatory">vdsm-hook-promisc</packagereq>
+          <packagereq type="mandatory">vdsm-hook-qemucmdline</packagereq>
           <packagereq type="mandatory">vdsm-hook-qos</packagereq>
           <packagereq type="mandatory">vdsm-hook-scratchpad</packagereq>
-          <packagereq type="mandatory">vdsm-hook-smartcard</packagereq>
           <packagereq type="mandatory">vdsm-hook-smbios</packagereq>
           <packagereq type="mandatory">vdsm-hook-sriov</packagereq>
+          <packagereq type="mandatory">vdsm-hook-vhostmd</packagereq>
           <packagereq type="mandatory">vdsm-hook-vmdisk</packagereq>
+          <packagereq type="mandatory">vdsm-hook-vmfex</packagereq>
           <packagereq type="mandatory">vdsm-reg</packagereq>
           <packagereq type="mandatory">libcgroup</packagereq>
+
       </packagelist>
   </group>
   <category>
