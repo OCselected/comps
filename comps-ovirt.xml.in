@@ -578,7 +578,6 @@
           <packagereq type="mandatory">vdsm-hook-hugepages</packagereq>
           <packagereq type="mandatory">vdsm-hook-isolatedprivatevlan</packagereq>
           <packagereq type="mandatory">vdsm-hook-macspoof</packagereq>
-          <packagereq type="mandatory">vdsm-hook-nestedvt</packagereq>
           <packagereq type="mandatory">vdsm-hook-numa</packagereq>
           <packagereq type="mandatory">vdsm-hook-openstacknet</packagereq>
           <packagereq type="mandatory">vdsm-hook-pincpu</packagereq>
